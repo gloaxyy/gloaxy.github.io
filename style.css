@@ -1,0 +1,107 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif
+}
+
+body{
+background:#030405;
+color:white;
+}
+
+nav{
+margin:25px auto;
+width:88%;
+padding:18px;
+border:1px solid #1d2520;
+border-radius:14px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h1 span,.hero span,.title span{
+color:#00ff4c;
+}
+
+.links a{
+color:white;
+text-decoration:none;
+margin:15px;
+}
+
+.btn{
+background:#00e94b;
+padding:12px 22px;
+border-radius:10px;
+box-shadow:0 0 20px #00ff4c;
+}
+
+.hero{
+padding:70px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.hero h2{
+font-size:42px;
+}
+
+.hero p{
+margin:25px 0;
+color:#aaa;
+}
+
+button{
+background:#111;
+color:white;
+border:1px solid #333;
+padding:12px 20px;
+border-radius:10px;
+margin-left:10px;
+}
+
+.logo{
+font-size:150px;
+color:#00ff4c;
+text-shadow:0 0 50px #00ff4c;
+border:2px solid #00ff4c;
+border-radius:50%;
+padding:30px;
+}
+
+.title{
+text-align:center;
+margin:30px;
+}
+
+.cards{
+display:flex;
+gap:15px;
+padding:0 8%;
+}
+
+.cards div,.payment{
+background:#080b0c;
+border:1px solid #1c2420;
+padding:25px;
+border-radius:15px;
+flex:1;
+}
+
+.cards p,.payment p{
+color:#aaa;
+margin-top:10px;
+}
+
+.payment{
+margin:0 8%;
+}
+
+footer{
+padding:30px;
+text-align:center;
+color:#777;
+}
